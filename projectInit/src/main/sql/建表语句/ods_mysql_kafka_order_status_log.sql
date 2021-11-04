@@ -9,7 +9,7 @@ CREATE TABLE gma_ods.ods_mysql_kafka_order_status_log(
 ) WITH (
   'connector' = 'kafka',
   'topic' = 'gma.order_status_log',
-  'properties.bootstrap.servers' = 'master:9092,node1:9092,node2:9092',
+  'properties.bootstrap.servers' = 'hadoop100:9092,hadoop101:9092,hadoop102:9092',
   'properties.group.id' = 'asdasd',
   'format' = 'canal-json',
   'canal-json.ignore-parse-errors'='true'

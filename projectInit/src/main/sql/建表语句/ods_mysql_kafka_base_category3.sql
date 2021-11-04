@@ -9,7 +9,7 @@ CREATE TABLE gma_ods.ods_mysql_kafka_base_category3(
 ) WITH (
   'connector' = 'kafka',
   'topic' = 'gma.base_category3',
-  'properties.bootstrap.servers' = 'master:9092,node1:9092,node2:9092',
+  'properties.bootstrap.servers' = 'hadoop100:9092,hadoop101:9092,hadoop102:9092',
   'properties.group.id' = 'sadasdsad',
   'format' = 'canal-json',
    'canal-json.ignore-parse-errors'='true'

@@ -15,7 +15,7 @@ date_id int,
 ) WITH (
   'connector' = 'kafka',
   'topic' = 'gma.date_info',
-  'properties.bootstrap.servers' = 'master:9092,node1:9092,node2:9092',
+  'properties.bootstrap.servers' = 'master:hadoop100:9092,hadoop101:9092,hadoop102:9092',
   'properties.group.id' = 'asdasd',
   'format' = 'canal-json',
     'canal-json.ignore-parse-errors'='true'
