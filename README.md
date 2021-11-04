@@ -54,3 +54,13 @@
 
 技术选型上，离线数仓一般依托HDFS或Hive构建，选择MR或Spark计算引擎；
 实时数仓存储层更多是选择Kafka等消息引擎，通常明细层和汇总层都放在Kafka，计算层则多是选择Flink/Spark Streaming/Storm，这方面Flink更有优势，社区也更倾向于选择Flink。
+
+
+
+项目的需求指标
+![image](https://user-images.githubusercontent.com/63897378/140305252-afff33e5-344a-4bfb-866d-7e18270f7e40.png)
+
+
+![image](https://user-images.githubusercontent.com/63897378/140305356-77c8f337-9ad2-4baa-9251-5f8e273e902e.png)
+
+
