@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/dim/dim.iml" filepath="$PROJECT_DIR$/dim/dim.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dwd/dwd.iml" filepath="$PROJECT_DIR$/dwd/dwd.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dws/dws.iml" filepath="$PROJECT_DIR$/dws/dws.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ods/ods.iml" filepath="$PROJECT_DIR$/ods/ods.iml" />
+      <module fileurl="file://$PROJECT_DIR$/projectInit/projectInit.iml" filepath="$PROJECT_DIR$/projectInit/projectInit.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/realTimeDataWarehouse.iml" filepath="$PROJECT_DIR$/.idea/realTimeDataWarehouse.iml" />
+    </modules>
+  </component>
+</project>
